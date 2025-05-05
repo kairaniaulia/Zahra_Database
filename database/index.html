@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran SMK Telkom Purwokerto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SMK TELKOM PURWOKERTO</h1>
+        <p>Selamat datang di SMK Telkom Purwokerto — Digital Creative School masa depan! Sekolah vokasi unggulan di bidang Teknologi Informasi & Komunikasi. Siap cetak generasi muda yang kreatif, adaptif, dan kompeten di era digital.</p>
+        
+        <form action="proses.php" method="post">
+            <label for="nama-siswa">Nama Siswa</label>
+            <input type="text" id="nama-siswa" name="nama-siswa" placeholder="Masukkan nama lengkap" required>
+            
+            <label for="asal-smp">Asal SMP</label>
+            <input type="text" id="asal-smp" name="asal-smp" placeholder="Masukkan asal sekolah" required>
+            
+            <label for="no-hp-siswa">No HP Siswa</label>
+            <input type="tel" id="no-hp-siswa" name="no-hp-siswa" placeholder="08xxxxxxxxxx" required>
+            
+            <label for="no-hp-orang-tua">No HP Orang Tua</label>
+            <input type="tel" id="no-hp-orang-tua" name="no-hp-orang-tua" placeholder="08xxxxxxxxxx" required>
+
+            <label for="tanggal">Tanggal</label>
+            <input type="text" id="tanggal" name="tanggal" placeholder="tanggal" required>
+            
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
